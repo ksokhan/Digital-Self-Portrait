@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>Self Portrait</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="shortcut icon" href="favicon.ico" />
+	
+	<link href='http://fonts.googleapis.com/css?family=Terminal+Dosis:400' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Gentium+Basic:400italic' rel='stylesheet' type='text/css'>
+	
+	<!-- CSS concatenated and minified via ant build script-->
+	<link rel="stylesheet" href="css/style.css">
+	<!-- end CSS-->
+	
+	
+</head>
+<body id="bod">
+
+<h1>Transforming <br />Inspiration</h1>
+<h3>An experimental interface <br/>displaying interesting <br />websites pulled live from <br />my delicious account.</h3>
+    <div id="main" role="main">
+    
+		<canvas id="c" width="900" height="600"></canvas>
+		
+		<img src="img/trans.gif" width="900" height="600" alt="" id="transimg" usemap ="#clickmap" />
+		<map name="clickmap" id="clickmap">
+		</map>
+		
+		<div id="lines"></div>
+		
+    </div>
+    <div id="skyline"></div>
+    
+    <div id="clouds_big"></div>
+    <div id="clouds_small"></div>
+    
+    <div id="hidebox" style="display:none;"></div>
+	
+	<div id="loading"><p>loading...</p></div>
+	
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/libs/jquery-1.6.2.min.js"><\/script>')</script>
+
+	<!-- scripts concatenated and minified via ant build script-->
+	<script defer src="js/plugins.js"></script>
+	<script defer src="js/libs/fx.js"></script>
+	<script defer src="js/script.js"></script>
+	<!-- end scripts-->
+  
+	<!--[if lt IE 7 ]>
+	<script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+	<script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+	<![endif]-->
+ 	
+</body>
+</html>
